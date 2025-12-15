@@ -2,6 +2,7 @@
 
 **Author:** [Cole Medin](https://www.youtube.com/@ColeMedin)
 
+Source: https://www.reddit.com/r/n8n/comments/1n857ig/ultimate_n8n_rag_ai_agent_template_by_cole_medin/
 ## What is this?
 This template provides a complete implementation of an **Agentic RAG (Retrieval Augmented Generation)** system in n8n with **reranking and agentic chunking** that can be extended easily for your specific use case and knowledge base. Unlike standard RAG which only performs simple lookups, this agent can reason about your knowledge base, self-improve retrieval, and dynamically switch between different tools based on the specific question. This agent uses Postgres with PGVector for the knowledgebase. You can use Supabase, Neon, self host Postgres, etc.
 
